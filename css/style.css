@@ -1004,7 +1004,7 @@ header.sticky .nav-bar{
 
 .contact-list li span{
     color: var(--third-color);
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 .contact-list li span a{
@@ -1131,11 +1131,24 @@ footer a{
     font-size: var(--normal-font-size);
     font-weight: 300;
     margin-top: 50px;
+    text-align: center;
 }
 
 /* =============Media query max-width 1070px============ */
 @media screen and (max-width: 1070px){
     /* ============== Header navigation menu============= */
+    
+    /* =======to fix the weird zooming issue in mobile view======= */
+    body{
+        width: 95%;
+    }
+
+    footer{
+        width: 105%;
+    }
+
+    /* ================= */
+
     .navigation{
         position: fixed;
         width: 100%;

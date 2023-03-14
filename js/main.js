@@ -146,7 +146,7 @@ var swiper = new Swiper(".client-swiper", {
   ScrollReveal({
     // reset: true,
     distance: '60px',
-    duration: '2500',
+    duration: '1500',
     delay: 100 
   });
 
