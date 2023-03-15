@@ -181,10 +181,9 @@ header.sticky .nav-bar{
     height: calc(2.5rem + 1rem);
 }
 
-.nav-bar .logo{
-    color: var(--first-color);
-    font-size: 1.3em;
-    font-weight: 600;
+.nav-bar img{
+    padding-top: 5px;
+    max-width: 45px;
 }
 
 .nav-items a{
